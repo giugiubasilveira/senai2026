@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pedidos Quitanda</title>
+    </head>
+    <boty>
+        <center>
+            <h1>Novo Pedido</h1>
+            <form action="http://127.0.0.1:3000" method="post">
+                <input type="number" placeholder="Identificacao" name="id" required><br>
+                <input type="text" placeholder="Nome do produto" name="nome" required><br>
+                <select placeholder="Unidade" name="unidade" required>
+                    <option value="Kg">Kg</option>
+                    <option value="Unidade">Unidade</option>
+                </select><br>
+                <input type="number" placeholder="Preço unitário" name="precoUnitario" required><br>
+                <input type="number" placeholder="Quantidade do produto" name="quantidade" required><br>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </form>
+        </center>
+    </boty>
+</html>
